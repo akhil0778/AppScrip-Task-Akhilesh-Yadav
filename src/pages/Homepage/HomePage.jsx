@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./HomePage.css";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import productsData from "../../data/products"; // 👈 import local data
+import productsData from "../../data/Products"; 
 
 const HomePage = () => {
   const [showFilter, setShowFilter] = useState(true);
